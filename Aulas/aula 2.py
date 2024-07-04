@@ -1,4 +1,4 @@
-#parse do python
+#cast em python
 
 n_intero = input("Digite um númro inteiro: ");
 
@@ -41,3 +41,8 @@ n_3 = 27.45678;
 
 # para pegar um numero especifico depois da vírgula round(variavel, numero de casas que você deseja)
 print("\n\nO valor: ", n_3, "arredondado fica:  ", round(n_3,2));
+
+#converter idade de string para int 
+idade = int(input("digite sua idade: "));
+
+print("sua idade : ", idade ,"e o seu tipo: ", type(idade));
