@@ -13,3 +13,8 @@ print("\n") #pular linha
 #--------
 nome,idade, email = "Felipe F.", 27, "felipesansi@gmail.com" #atribuido tudo na mesma linha
 print("Meu nome é : ",nome ,"tenho ",idade ,"anos ", "meu e-mail é: ", email)
+#usuário interagir com o programa
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+
+print("Nome: ",nome , "\nIdade: ",idade) 
