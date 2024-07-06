@@ -4,8 +4,8 @@ Este projeto contém exemplos básicos de programação em Python, abordando div
 
 ## Índice
 
-1. [Introdução](#introdução)
-2. [Conteúdo](#conteúdo)
+1. [Introdução](##introdução)
+2. [Conteúdo](##conteúdo)
 3. [Execução](##execução)
 4. [Exemplos de Uso](#exemplos-de-uso)
 
@@ -36,7 +36,10 @@ Para executar o código, salve-o em um arquivo `.py` e execute-o a partir da lin
 python nome_do_arquivo.py
 
 
-##Exemplos de Uso
+## Exemplos de Uso
+
+
+
 print("Olá, mundo!")
 n = 10 # int
 n_real = 14.5 # float
@@ -48,3 +51,14 @@ print(n)
 print(n_real)
 print(n_complexo)
 print(mensagem)
+
+
+
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+
+print("Nome: ", nome, "\nIdade: ", idade)
+
+n_inteiro = input("Digite um número inteiro: ")
+n_real = float(n_inteiro)
+print("O número: ", n_real)
