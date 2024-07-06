@@ -34,3 +34,17 @@ Para executar o código, salve-o em um arquivo `.py` e execute-o a partir da lin
 
 ```bash
 python nome_do_arquivo.py
+
+
+##Exemplos de Uso
+print("Olá, mundo!")
+n = 10 # int
+n_real = 14.5 # float
+notacao_cientifica = 10.4e+2 # notação científica
+n_complexo = 30.5j # número complexo
+mensagem = "A mensagem foi enviada!"
+
+print(n)
+print(n_real)
+print(n_complexo)
+print(mensagem)
