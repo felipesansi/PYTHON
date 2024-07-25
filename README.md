@@ -1,4 +1,4 @@
-# Python Basic Examples
+# Python Exemplos Basicos
 
 Este projeto contém exemplos básicos de programação em Python, abordando diversos conceitos fundamentais da linguagem, como operações matemáticas, manipulação de strings, controle de fluxo, e estrutura de dados. 
 
