@@ -87,3 +87,15 @@ print("depois do if", n)  # Imprime o valor final de n
 # Corrigindo um erro de atribuição
 n = 0  # Inicializa n com 0 novamente
 n += 1  # Incrementa n em 1
+
+# pass 
+seq = {'a', 'b', 'b'};
+ 
+for i in seq: 
+    pass
+print(i)
+#------------------
+ # list comprehension
+
+lista1= [x**2 for x in range(10)]
+print(lista1)
