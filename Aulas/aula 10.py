@@ -25,3 +25,4 @@ print(dobrar(5))  # Imprime 10
 fahrenheit_temps = [32, 50, 68, 86, 104]
 celsius_temps = [(lambda f: (f - 32) * 5/9)(temp) for temp in fahrenheit_temps]
 print(celsius_temps)  # Imprime [0.0, 10.0, 20.0, 30.0, 40.0]
+ 
